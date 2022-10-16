@@ -13,7 +13,7 @@ int main(void)
 	while (num <= 9)
 	{
 		num1 = 0;
-		while (num1 <- 9)
+		while (num1 <= 9)
 		{
 			if (num != num1 && num < num1)
 			{
