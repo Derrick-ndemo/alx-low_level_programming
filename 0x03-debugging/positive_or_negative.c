@@ -1,10 +1,11 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - Entry point
  *
- * Description: print value of n satus; zero, positive or negative
+ * @i: argunemt representing value
  *
+ * positive_or_negaitve: checks for any positive of negative number
  * Return: Always 0 (Success)
 */
 
