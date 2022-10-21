@@ -1,3 +1,4 @@
+#include "main.h"
 
 /**
  * mul - Multiplies two intagers
@@ -10,7 +11,6 @@
 
 int mul(int a, int b)
 {
-	result = a * b;
+	return (a * b);
 
-	return (result);
 }
