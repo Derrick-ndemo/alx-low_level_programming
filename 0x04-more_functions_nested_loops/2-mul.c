@@ -1,4 +1,3 @@
-#include "main.c"
 
 /**
  * mul - Multiplies two intagers
