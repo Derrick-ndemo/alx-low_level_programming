@@ -8,10 +8,13 @@
 
 void print_numbers(void)
 {
-	for (char i = 48; i < 57; i++)
+	int num = 0;
+	
+	do
 	{
-		_putchar(i);
-	}
+		_putchar(num + 48);
+		num++;
+	} while (num >= 0 && num <= 9);
 
 	_putchar('\n');
 
