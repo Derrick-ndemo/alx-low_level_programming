@@ -1,5 +1,4 @@
-# ![ALX Image](https://camo.githubusercontent.com/1c0e1c08aa5a3963ec2b98cad353dd0d2c1f468a38498e892e1c4d7b18896e83/68747470733a2f2f6173736574732e696d6167696e61626c65667574757265732e636f6d2f6d656469612f696d616765732f414c585f4c6f676f2e6d61782d323030783135302e706e67)
-
+# ![c Image](https://camo.githubusercontent.com/19be9442a7ba75a623c9dce30f4bf5e4a96f018e169d1abd32e755e0d50d1d8f/68747470733a2f2f692e706f7374696d672e63632f7270724853684a312f432d636f6d70696c6174696f6e2d70726f636573732e676966)
 # Low Level Programming 🔥
 This repository acts as a roadmap on basics of C programming language. This repo uses shell and c programming language in exploring variousl aspects. The project is designed by [ALX Africa](https://www.alxafrica.com/software-engineering-2022/) to equip you with the neccessary skills to become a fully fledged Software Engineer. 
 
