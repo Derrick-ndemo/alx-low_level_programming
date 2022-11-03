@@ -9,9 +9,14 @@
 
 int _pow_recursion(int x, int y)
 {
+	int res = x;
+
 	if (y < 0)
 	{
 		return (-1);
 	}
-	return (_pow_recursion(x ** y);
+	else if (y == 0)
+		return (1);
+	
+	result *= _pow_recursion(x, y - 1);
 } 
