@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - a program that adds two arguments passed into it
+ * main - a program that multiplies two arguments passed into it
  *
  * @argc: holds the number of arguments passed
  * @argv: array pointer that holds the arguments passed
@@ -12,7 +12,7 @@
 
 int main(int argc, char *argv[])
 {
-	unsigned int m;
+	int m;
 
 	if (argc != 3)
 	{
@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		m = (atoi(argv[1]) + atoi(argv[2]));
+		m = (atoi(argv[1]) * atoi(argv[2]));
 		printf("%d\n", m);
 	}
 	return (0);
