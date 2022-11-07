@@ -19,6 +19,6 @@ int main(int argc, char __attribute__((unused)) *argv[])
 		n = i;
 		i++;
 	}
-	printf("%d\n", m);
+	printf("%d\n", n);
 	return (0);
 }
