@@ -1,7 +1,7 @@
 /**
  * main - prints the name of file it
- * 	 was compiled from, followed
- * 	 by a new line
+ *        was compiled from, followed
+ *        by a new line
  * Return: Always 0 if success
 */
 
