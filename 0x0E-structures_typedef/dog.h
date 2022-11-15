@@ -16,7 +16,7 @@ struct dog
 };
 
  /**
- *  dog_t - alias for dog struct 
+ *  dog_t - alias for dog struct
 */
 
 typedef struct dog dog_t;
