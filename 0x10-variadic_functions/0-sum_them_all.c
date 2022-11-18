@@ -21,10 +21,7 @@ int sum_them_all(const unsigned int n, ...)
 	{
 		unsigned int x = va_arg(args, int);
 
-		if (n == 0)
-			sum = 0;
-		else if (n > 0)
-			sum += x;
+		sum += x;
 	}
 	va_end(args);
 
