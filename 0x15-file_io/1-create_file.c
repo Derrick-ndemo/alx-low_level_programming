@@ -12,34 +12,28 @@
 
 int create_file(const char *filename, char *text_content)
 {
-	int fd;
+	int fd, w, len = 0;
 	char *buff;
 
 	/* write */
-	fd = open("filename", O_CREAT | O_WRONLY, 0600);
+	if (filename == NULL)
+		return (-1);
 
-	if (fd == -1 || fd == NULL)
+	if (text_content != NULL)
+	{
+		for (len = 0; text_content[len];)
+			len++;
+	}
+
+	fd = open(filename, O_CREAT | O_RDWR | O_TRUNC, 0600);
+
+	w = write(fd, text_content, len);
+
+	if (fd == -1 || w == -1)
 	{
 		return (-1);
 	}
-	if (text_content == NULL)
-	{
-		write(fd);
-		exit(1);
-	}
-
-	write(fd, text_content, 15);
 	close(fd);
-
-	/* read */
-	fd = open("filename", O_RDONLY);
-
-	if (fd == -1 || fd == NULL)
-	{
-		return (-1);
-	}
-	read(fd, buff, 15);
-	buff[15] = '\0';
 
 	return (1);
 }
