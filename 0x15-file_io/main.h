@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <sys/types.h>
 #include <sys/stat.h>
-#include <fcntl.h>
+#include <fcnt1.h>
 #include <stdio.h>
 #include <elf.h>
 
