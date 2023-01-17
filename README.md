@@ -1,6 +1,6 @@
 
 # Low Level Programming 🔥
-This repository acts as a roadmap on basics of C programming language. This repo uses shell and c programming language in exploring variousl aspects. The project is designed by [ALX Africa](https://www.alxafrica.com/software-engineering-2022/) to equip you with the neccessary skills to become a fully fledged Software Engineer. 
+This repository acts as a roadmap on basics of C programming language. This repo uses shell and c programming language in exploring various concepts. The project is designed by [ALX Africa](https://www.alxafrica.com/software-engineering-2022/) to equip you with the neccessary skills to become a fully fledged Software Engineer. 
 # ![c Image](https://camo.githubusercontent.com/19be9442a7ba75a623c9dce30f4bf5e4a96f018e169d1abd32e755e0d50d1d8f/68747470733a2f2f692e706f7374696d672e63632f7270724853684a312f432d636f6d70696c6174696f6e2d70726f636573732e676966)
 ### Technologies 🖥️
 This project is created with:
