@@ -20,4 +20,4 @@ This project is created with:
 
 
 ## Licences
-This repository consists of shell associated projects.Subject projects done with [ALX Africa](https://www.alxafrica.com/software-engineering-2022/) Full stack Software Engineering course by Derrick Ndemo.
+This repository consists of C associated projects.Subject projects done with [ALX Africa](https://www.alxafrica.com/software-engineering-2022/) Full stack Software Engineering course by Derrick Ndemo.
