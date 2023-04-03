@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - Entry point
@@ -8,40 +9,39 @@
 
 int main(void)
 {
-	int digit1 = 0;
-	int digit2, digit3;
+  int a = 0, b, c;
+  
+  while (a <= 9)
+  {
+    b = 0;
+    while (b <= 9)
+    {
+      c = 0;
+      while (c <= 9)
+      {
+        if (a != b && a != c && b > a && c > a && c > b)
+        {
+          putchar(48 + a);
+          putchar(48 + b);
+          putchar(48 + c);
 
-	while (digit1 <= 9)
-	{
-		digit2 = 0;
-		while (digit2 <= 9)
-		{
-			digit3 = 0;
-			while (digit3 <= 9)
-			{
-				if (digit1 != digit2 &&
-					digit1 < digit2 &&
-					digit2 != digit3 &&
-					digit2 < digit3)
-				{
-					putchar(digit1 + 48);
-					putchar(digit2 + 48);
-					putchar(digit3 + 48);
+          if (a + b != 17)
+          {
+            putchar(',');
+            putchar(' ');
+          }
+        }
+        ++c;
+      }
+      ++b;
+    }
+    
+    ++a;
+  }
+  
+  putchar('\n');
 
-					if (digit1 + digit2 + digit3 != 24)
-					{
-						putchar(',');
-						putchar(' ');
-					}
-				}
-				++digit3;
-			}
-			++digit2;
-		}
-		++digit1;
-	}
-	putchar('\n');
-
-	return (0);
+  return (0);
 }
+
 
